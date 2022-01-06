@@ -25,7 +25,13 @@ public class Task {
             this.id = id;
             this.priorityId = priorityId;
             this.description = description;
-            this.date = date;
+//            this.date = date;
+        }
+
+        public Task(Integer id, Integer priorityId, String description) {
+            this.id = id;
+            this.priorityId = priorityId;
+            this.description = description;
         }
 
         public Integer getId() {

@@ -19,10 +19,6 @@
                 <label>Description</label>
                 <input type="text" name="description">
             </td>
-            <td>
-                <label>Date</label>
-                <input type="date" name="date">
-            </td>
 
             <td>
                 <input type="submit" value="add task">
@@ -47,7 +43,6 @@
         <td>${task.id}</td>
         <td>${task.priorityId}</td>
         <td>${task.description}</td>
-        <td>${task.date}</td>
         <td><a href="${'/delete/'+task.id}"">Delete</a></td>
     </tr>
 </#list>
